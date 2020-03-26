@@ -45,7 +45,7 @@ def naming_system
   order = {
    :label => "Order",
    :sub_category =>{
-     
+     :label => "Family"
    } 
 # }
   # Remember:
