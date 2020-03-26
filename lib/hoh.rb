@@ -49,7 +49,7 @@ def naming_system
    } 
   }
   
-  kingdom = {
+  domain = {
     :label => "Kingdom",
     :sub_category =>{
       :label => "Phylum",
