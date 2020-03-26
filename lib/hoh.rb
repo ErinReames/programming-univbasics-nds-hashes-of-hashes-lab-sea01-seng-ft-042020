@@ -45,8 +45,22 @@ def naming_system
   order = {
    :label => "Order",
    :sub_category =>{
-     :label => "Family"
+     :label => family
    } 
+  }
+  
+  kingdom = {
+    :label => "Kingdom",
+    :sub_category =>{
+      :label => "Phylum",
+      :sub_category =>{
+        :label => "Class",
+        :sub_category =>{
+          :label => order
+        }
+      }
+    }
+  }
 # }
   # Remember:
   #  Kingdom
