@@ -38,6 +38,10 @@ def naming_system
      label: "Genus",
    }
  }
+  order = {
+   label: "Order",
+   sub_category: 
+# }
   # Remember:
   #  Kingdom
   #  Phylum
